@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Website for hotchilli</title>
+    <link rel="stylesheet" href="styles.css" />
+    <meta name="keywords" content="jakaś strona, aktualnosci, hotchilli" />
+  
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+      integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
+      crossorigin="anonymous"
+    />
+    <script src="jquery.scrollTo.min.js"></script>
+  </head>
+  <body>
+    <!-- Navbar Section -->
+
+    <nav class="navbar">
+      <div class="navbar__container">
+        <div class="navbar__toggle" id="mobile-menu">
+          <span class="bar"></span> <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        <ul class="navbar__menu">
+          <li class="navbar__item">
+            <a href="#" class="button" id="home-page">start</a>
+          </li><li class="navbar__item">
+            <a href="#" class="navbar__links" id="news-page">aktualności</a>
+          <li class="navbar__item">
+            <a href="#about" class="navbar__links" id="about-page">o nas</a>
+          </li>
+        </li><li class="navbar__item">
+          <a href="#services" class="navbar__links" id="services-page">oferta</a>
+        </li>
+          <li class="navbar__item">
+            <a href="#contact" class="navbar__links" id="contact-page"
+              >kontakt</a>
+          </li>
+          <li class="navbar__btn">
+            <div class="dropdown">
+              <button class="dropbtn">języki</button>
+              <div class="dropdown-content">
+                <a href="#" onclick="setLanguage('en')">Angielski</a> 
+                <a href="#" onclick="setLanguage('es')">Hiszpański</a>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <a href="#" class="scrollup"></a>  
+
+    <!-- About Section -->
+    <div class="main" id="about">
+      <div class="main__container">
+        <div class="main__img--container">
+          <h1>Aktualności</h1>
+          <div class="main__img--card"><img src="items/dashboard.png"></div>
+        </div>
+        <div class="main__content">
+          <h1>CFE Retail Suummit</h1>
+          <p>
+            CFE Retail Suummit 13 - 14 marca 2018<br>
+            Zapraszamy na prezentacje naszego<br>
+            innowacyjnego urządzenia<br>
+            dwufunkcyjnego Spinakerr DF.
+          </p>
+          <button class="main__btn"><a href="#"></a></button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Services Section -->
+    <div class="services" id="services">
+      <div class="services__wrapper">
+        <div class="services__card">
+          <img src="items/office.png" alt="office">
+          <h2>Lorem ipsum</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In arcu leo, commodo vel sem
+            nec, cursus tincidunt ex. Duis faucibus sodales mauris vel consectetur. Ut purus erat,
+            mattis id faucibus et, sodales et magna. Fusce maximus, orci quis tempor lacinia, ante
+            neque tempor neque, eget vehicula ipsum enim quis metus.</p>
+          <div class="services__btn"><button>GO</button></div>
+        </div>
+        <div class="services__card">
+          <img src="items/office.png" alt="office">
+          <h2>Lorem ipsum</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In arcu leo, commodo vel sem
+            nec, cursus tincidunt ex. Duis faucibus sodales mauris vel consectetur. Ut purus erat,
+            mattis id faucibus et, sodales et magna. Fusce maximus, orci quis tempor lacinia, ante
+            neque tempor neque, eget vehicula ipsum enim quis metus.</p>
+          <div class="services__btn"><button>GO</button></div>
+        </div>
+
+        <div class="services__card">
+          <img src="items/office.png" alt="office">
+          <h2>Lorem ipsum</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In arcu leo, commodo vel sem
+            nec, cursus tincidunt ex. Duis faucibus sodales mauris vel consectetur. Ut purus erat,
+            mattis id faucibus et, sodales et magna. Fusce maximus, orci quis tempor lacinia, ante
+            neque tempor neque, eget vehicula ipsum enim quis metus.</p>
+          <div class="services__btn"><button>GO</button></div>
+        </div>
+        <div class="services__card">
+          <img src="items/office.png" alt="office">
+          <h2>Lorem ipsum</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In arcu leo, commodo vel sem
+            nec, cursus tincidunt ex. Duis faucibus sodales mauris vel consectetur. Ut purus erat,
+            mattis id faucibus et, sodales et magna. Fusce maximus, orci quis tempor lacinia, ante
+            neque tempor neque, eget vehicula ipsum enim quis metus.</p>
+          <div class="services__btn"><button>GO</button></div>
+        </div>
+        <div class="selector">
+          <ul class="selector-pages">
+            <li><a href="#">1</a></li>
+            <li><a href="#">2</a></li>
+            <li><a href="#">3</a></li>
+            <li><a href="#">4</a></li>
+            <li><a href="#">5</a></li>
+            <li><a href="#">6</a></li>
+            <li><a href="#">7</a></li>
+            <li><a href="#">8</a></li>
+            <li><a href="#">9</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- contact  -->
+    <div class="main" id="contact">
+      <div class="main__container">
+        <h1>info</h1>
+        <div class="main__content-menu">
+							<div class="main_content-item1">
+								<h2>oferta</h2>
+								<ul class="contact-menu">
+									<li><a href="#">systemy samoogbsługowe</a></li>
+									<li><a href="#">cyfrowa mapa sklepu</a></li>
+									<li><a href="#">eComarce picking cart</a></li>
+									<li><a href="#">sprzedaż automatyczna</a></li>
+								</ul>
+							</div>
+
+							<div class="main_content-item2">
+								<h2>firma</h2>
+								<ul class="contact-menu">
+									<li><a href="#">o nas</a></li>
+									<li><a href="#">Partnerzy</a></li>
+									<li><a href="#">kontakt</a></li>
+									<li><a href="#">Realizacje</a></li>
+								</ul>
+							</div>
+
+							<div class="main_content-item3">
+								<h2>Aktualności</h2>
+                <a href="#" class="social__icon--link"><i class="fab fa-linkedin"></i
+                  ></a>
+							</div>
+
+							<div class="main_conten-item4">
+                
+								Copyright &copy; 2017 HemiLab sp. z o.o. sp. k.<br>
+								Wszelkie prawa zastrzeżone.
+							</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer Section -->
+    <div class="footer__container">
+      <section class="social__media">
+        <div class="social__media--wrap">
+          <div class="social__icons">
+            <a href="https://github.com/RufusCarlito" class="social__icon--link" target="_blank"
+              ><i class="fab fa-github"></i
+            ></a>
+            <a href="https://www.facebook.com/krystian.romsicki.3" class="social__icon--link"
+              ><i class="fab fa-facebook"></i
+            ></a>
+          </div>
+        </div>
+      </section>
+    </div>
+    <script src="app.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script>
+
+    $(document).ready(function(){
+    $('.dropdown-content').text(language.date);
+    });
+
+    </script>
+  </body>
+</html>
